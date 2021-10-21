@@ -19,16 +19,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `lesson12`
+-- База данных: `exam`
 --
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `lesson12`
+-- Структура таблицы `exam`
 --
 
-CREATE TABLE `lesson12` (
+CREATE TABLE `exam` (
   `id` int(6) UNSIGNED NOT NULL,
   `firstname` varchar(30) NOT NULL,
   `lastname` varchar(30) NOT NULL,
@@ -37,10 +37,10 @@ CREATE TABLE `lesson12` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `lesson12`
+-- Дамп данных таблицы `exam`
 --
 
-INSERT INTO `lesson12` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES
+INSERT INTO `exam` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALUES
 (1, 'Nicky', 'Lemeshko', 'admin@mdsn.tk', '2021-02-16 07:23:39');
 
 --
@@ -48,9 +48,9 @@ INSERT INTO `lesson12` (`id`, `firstname`, `lastname`, `email`, `reg_date`) VALU
 --
 
 --
--- Индексы таблицы `lesson12`
+-- Индексы таблицы `exam`
 --
-ALTER TABLE `lesson12`
+ALTER TABLE `exam`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -58,9 +58,9 @@ ALTER TABLE `lesson12`
 --
 
 --
--- AUTO_INCREMENT для таблицы `lesson12`
+-- AUTO_INCREMENT для таблицы `exam`
 --
-ALTER TABLE `lesson12`
+ALTER TABLE `exam`
   MODIFY `id` int(6) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 

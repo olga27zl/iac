@@ -3,7 +3,7 @@ terraform {
     organization = "aqa"
 
     workspaces {
-      name = "final"
+      name = "exam"
     }
   }
 }
